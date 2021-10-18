@@ -1,5 +1,5 @@
 import random
-def random_symbols():
+def randomSymbols(grade):
     # Four operation symbols
     operation = ['+', '-', '*', '/'] 
     if grade < 3:

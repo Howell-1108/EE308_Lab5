@@ -2,7 +2,7 @@ import random
 from fractions import Fraction
 
 
-def random_num(grade):
+def randomNum(grade):
     ran_sum = 0;  #随机数结果
     ran_num = 0;  #随机整数
     ran_snum = 0; #随即小数
