@@ -1,4 +1,5 @@
 import random
+# @profile
 def randomSymbols(grade):
     # Four operation symbols
     operation = ['+', '-', '*', '/'] 

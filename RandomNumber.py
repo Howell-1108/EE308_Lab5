@@ -1,7 +1,7 @@
 import random
 from fractions import Fraction
 
-
+# @profile
 def randomNum(grade):
     ran_sum = 0;  #随机数结果
     ran_num = 0;  #随机整数
