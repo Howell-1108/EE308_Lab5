@@ -4,5 +4,3 @@ def random_symbols():
     randSym = operation[random.randint(0, 3)]
     # print(randSym)
     return randSym
-
-# random_symbols()
