@@ -23,8 +23,10 @@ for nowNum in range(questionNum):
     ansUser = float(input())
     # print("####ansUser: ",ansUser)
     if deResult(ansUser,ansStd) == 1:
-        # print("####correct")
+        print("correct")
         correctNum += 1
+    else:
+        print("The correct answer is: ",ansStd)
     # correctNum += DeResult(ansUser,ansStd)
 
 if questionNum == correctNum:
