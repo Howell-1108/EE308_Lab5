@@ -12,6 +12,6 @@ def random_num(grade):
     if grade > 1 and grade < 4:  #如果是低年级
         ran_sum = ran_num
     if grade > 4:   #如果是高年级
-       ran_sum = ran_num + ran_snum;
+       ran_sum = ran_num + ran_snum
     return  ran_sum
 
