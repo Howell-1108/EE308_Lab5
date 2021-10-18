@@ -9,7 +9,7 @@ def randomNum(grade):
     ran_snum = (random.random())  #生成随机整数
     ran_num = (random.randint(0, 100))  #生成随机小数
     ran_snum = round(ran_snum, 2)  #小数保留俩位数字
-    if grade > 1 and grade < 4:  #如果是低年级
+    if grade > 0 and grade < 5:  #如果是低年级
         ran_sum = ran_num
     if grade > 4:   #如果是高年级
        ran_sum = ran_num + ran_snum
